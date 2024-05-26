@@ -10,4 +10,4 @@ console.log(typeof null);
 //boolean => true/false
 //null => standalone value
 // undefined =>
-// symbol => unique
+// symbol => uniquen
