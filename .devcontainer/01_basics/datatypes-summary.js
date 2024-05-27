@@ -39,3 +39,22 @@ console.log(typeof bigNumber);
 
 
 console.log(typeof anotherId);
+
+// Stack(Primitive), Heap(Non-primitive)
+
+let myName ={
+    email: "sss@gmail.com",
+    home: "shahad"
+}
+let otherName = myName
+
+otherName.home = "Kalyan"
+
+console.log(myName.home);
+console.log(otherName.home);
+
+console.log(otherName.email);
+
+
+
+
